@@ -1,2 +1,1 @@
-# my-portfolio
-Jay's Portfolio
+# Jay's Portfolio
