@@ -36,7 +36,7 @@ header {
     height: 95px;
     /* border: 1px solid blue; */
     display: flex;
-    padding: 0 30px;
+    padding: 0 px;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
@@ -234,6 +234,146 @@ header {
 /*  */
 
 
+/*  */
+/* section01 */
+/*  */
+
+.section01 {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 60px;
+    border-top: 1px solid #EBEBEB;
+}
+
+.sec1_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p_img {
+    width: 47%;
+    height: 866px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.p_img>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec1_text_wrap {
+    width: 47%;
+    height: auto;
+}
+
+
+.sec1_text_wrap>h3 {
+    font-size: 25px;
+    font-family: "Noto Sans KR";
+    padding: 14px 0;
+
+}
+
+.sec1_text_wrap>h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text_both {
+    width: 100%;
+    height: 91px;
+    /* 47%의 100%를 채움 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.text_both:nth-of-type(1){
+    border-bottom: none;
+    margin-top: -10px;
+    /* border: 1px solid black; */
+    height: 38px !important;
+
+}
+
+.text_left {
+    display: flex;
+    flex-direction: row;
+    font-family: "Noto Sans KR";
+}
+
+.text_left>h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text_left>h2 {
+    width: 151px;
+    font-size: 17px;
+}
+
+.text_left>h5 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.text_right>h2 {
+    font-size: 17px;
+}
+
+.text_right {
+    font-family: "Noto Sans KR";
+    display: flex;
+    flex-direction: row;
+}
+
+.text_right>img {
+    width: 24px;
+    margin-left: 26px;
+    
+}
+.down_icon {
+    width: 30px !important;
+}
+
+
+
+/* 가격 변동 표시 부분 */
+.price-box {
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    justify-content: end;
+}
+
+.price-box>h2, p {
+    font-size: 17px;
+    text-align: end;
+    font-weight: bolder;
+}
+
+
+
+
+/*  */
+/* section02 */
+/*  */
+
+/*  */
+/* section03 */
+/*  */
+
+
+
+
+
 
 /*  *
 /* footer */
@@ -308,7 +448,7 @@ footer {
     transition: background 0.3s;
 }
 
-.floating-buttons>button>img{
+.floating-buttons>button>img {
     width: 27px;
     height: 27px;
     margin-top: 2px;
