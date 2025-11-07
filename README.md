@@ -2,7 +2,7 @@
 
 
 ## 🌐 포트폴리오 링크
-[l2m-jay.github.io/jays-portfolio/](l2m-jay.github.io/jays-portfolio/)
+[https://l2m-jay.github.io/jays-portfolio/](https://l2m-jay.github.io/jays-portfolio/)
 
 ---
 
