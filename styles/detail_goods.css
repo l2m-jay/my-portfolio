@@ -1039,8 +1039,11 @@ footer {
         opacity: 0.6;
         margin: 15px 6px !important;
         z-index: 3;
-        z-index: 9999;
     }
+
+    .p_swiper .swiper-pagination1 .swiper-pagination-bullet-active {
+    background: #3b3b3b;
+}
 
 
     /* 이미지 슬라이드 옆 텍스트 */
