@@ -441,7 +441,7 @@
                     <div class="sec2_text1">
                         <div class="content1">The Story</div>
                         <div class="content2">&ndash; 스토리 &ndash;</div>
-                        <div class="content3">그리스 펠리온 산에서 보낸 어느 여름날의 추억을 그리는 향기입니다.<br>
+                        <div class="content3">그리스 펠리온 산에서 보낸<br>어느 여름날의 추억을 그리는 향기입니다.<br><br>
                             바닷가로 내려가기 위해서는<br>
                             야생 무화가 나무 밭을 가로질러 가야 했습니다.<br>
                             필로시코스는 무화과 나무를 그린 한 편의 아름다운 시입니다.<br>
@@ -462,6 +462,7 @@
                 </div>
             </div>
         </div>
+        <section class="section08"></section>
         <div class="section09">
             <div class="sec1_title">
                 <h1>BEST SELLERS</h1>
@@ -541,9 +542,15 @@
             <!-- Initialize Swiper -->
             <script>
                 var bestSwiper = new Swiper(".bestSwiper", {
-                    slidesPerView: 4.6,
-                    spaceBetween: 30,
-                    freeMode: true,
+                    slidesPerView: 2.4,     // 모바일
+                    spaceBetween: 8,         // 화면 폭과 맞춰 조정
+                    freeMode: false,         // 끝점 스냅
+                    breakpoints: {
+                        481: {
+                            slidesPerView: 4.6,
+                            spaceBetween: 30
+                        }
+                    }
                 });
             </script>
         </div>

@@ -376,7 +376,7 @@ header {
 
 .text_both {
     width: 100%;
-    height: 70px;
+    height: 65px;
     /* 47%의 100%를 채움 */
     display: flex;
     flex-direction: row;
@@ -384,6 +384,9 @@ header {
     align-items: center;
     border-bottom: 1px solid #EBEBEB;
 }
+
+/* text_both 높이 */
+
 
 .text_left {
     display: flex;
@@ -997,94 +1000,224 @@ footer {
     }
 
     .sec1_1 {
-    max-width: 100%;
-    padding: 0 13px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    /* border: 1px solid red; */
-}
+        max-width: 100%;
+        padding: 0 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        /* border: 1px solid red; */
+    }
 
-/* 제품이미지 */
-.p_swiper {
-    width: 100%;
-    height: 535px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
+    /* 제품이미지 */
+    .p_swiper {
+        width: 100%;
+        height: 535px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
 
-.sec1_text_wrap {
-    width: 100%;
-    height: auto;
-    font-family: "Noto Sans KR";
-}
+    .sec1_text_wrap {
+        width: 100%;
+        height: auto;
+        font-family: "Noto Sans KR";
+    }
 
 
-/* 페이지네이션 */
-/* .p_swiper .swiper-pagination1 {
+    /* 페이지네이션 */
+    /* .p_swiper .swiper-pagination1 {
     bottom: -50px !important;
     z-index: 3;
 } */
 
-.p_swiper .swiper-pagination1 .swiper-pagination-bullet {
-    width: 6px;
-    height: 6px;
-    background: #a7a7a7;
-    opacity: 0.6;
-    margin: 100px 6px !important;
-    z-index: 3;
-    cursor: none;
-}
+    .p_swiper .swiper-pagination1 .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        background: #a7a7a7;
+        opacity: 0.6;
+        margin: 100px 6px !important;
+        z-index: 3;
+        cursor: none;
+    }
 
 
 
 
-.text_left>h1 {
-    font-size: 15px;
-}
+    .text_left>h1 {
+        font-size: 15px;
+    }
 
-.sec1_text_wrap>h4 {
-    font-size: 14px;
-    margin-top: -4px;
-}
+    .sec1_text_wrap>h4 {
+        font-size: 14px;
+        margin-top: -4px;
+    }
 
-.sec1_text_wrap>h3 {
-    font-size: 15px;
-    padding: 10px 0 14px;
-}
+    .sec1_text_wrap>h3 {
+        font-size: 15px;
+        padding: 10px 0 14px;
+    }
 
-.text_left>h2 {
-    font-size: 14px;
-}
+    .text_left>h2 {
+        font-size: 14px;
+    }
 
-.text_left>h5 {
-    font-size: 14px;
-}
+    .text_left>h5 {
+        font-size: 14px;
+    }
 
-.text_right>h2 {
-    font-size: 14px;
-}
+    .text_right>h2 {
+        font-size: 14px;
+    }
 
-.text_right>img {
-    width: 23px;
-    margin-left: 16px;
-}
+    .text_right>img {
+        width: 23px;
+        margin-left: 16px;
+    }
 
-.down_icon {
-    width: 23px !important;
-}
+    .down_icon {
+        width: 23px !important;
+    }
 
-.quantity>button {
-    height: 35px;
-    background-color: transparent;
-    border: none;
-}
+    .quantity>button {
+        width: 20%;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+    }
 
 
+    .ml_check {
+        width: 98px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 22px;
+    }
+
+    .purchase {
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .purchase>button {
+        font-size: 14px !important;
+    }
+
+
+    /*  */
+    /* section02 */
+    /*  */
+    .section02 {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 100px 13px;
+        box-sizing: border-box;
+    }
+
+    .sec2_1 {
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sec2_img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .sec2_text_warp {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .content1 {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .content2 {
+        font-size: 11px;
+        margin-top: 3px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .content3 {
+        width: 280px;
+        font-size: 12px;
+        margin: 30px 0 50px;
+        text-align: center;
+        /* line-height: 23px; */
+    }
+
+    /*  */
+    /* section08 */
+    /*  */
+    .section08 {
+        max-width: 100%;
+        height: 4px;
+        background-color: #f3f3f3;
+
+    }
+
+
+
+    /*  */
+    /* section09 */
+
+    .section09 {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+
+    .section09 .sec1_title {
+        margin: 0;
+    }
+
+    .section09 .sec1_title>h1 {
+        font-size: 26px;
+    }
+
+    .section09 .swiper {
+        height: auto;
+
+    }
+
+    .section09 .s1_product {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 285px;
+        /* 기존 디자인 유지 */
+        height: auto;
+        cursor: pointer;
+    }
+
+    .s1_product>img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s;
+    }
+
+    .s1_product>h2 {
+        font-size: 13px;
+    }
+
+    .s1_product>h3 {
+        font-size: 11px;
+    }
+
+    .s1_product>h4 {
+        font-size: 13px;
+        margin-top: 5px;
+    }
 
 
 
