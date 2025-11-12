@@ -266,25 +266,22 @@ header {
     width: 47%;
     height: 700px;
     margin: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .p_swiper .swiper {
     max-width: 100%;
-    height: 700px;
+    height: 680px;
     position: relative;
+    overflow: hidden;
 }
 
-.p_swiper .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .p_swiper .swiper-slide img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -816,9 +813,7 @@ footer {
         overflow: hidden;
     }
 
-    .container
-
-    .logo_container {
+    .container .logo_container {
         height: 60px;
         padding: 0 13px;
         display: flex;
@@ -1006,50 +1001,53 @@ footer {
 
     .sec1_1 {
         max-width: 100%;
+        height: auto;
         padding: 0 13px;
         display: flex;
         flex-direction: column;
-        justify-content: start;
         align-items: start;
-        /* border: 1px solid red; */
     }
 
     /* 제품이미지 */
-    .p_swiper {
+    .sec1_1 .p_swiper {
         width: 100%;
-        height: 535px;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
+        height: 480px;
+        margin-top: 13px;
     }
 
-    .sec1_text_wrap {
-        width: 100%;
-        height: auto;
-        font-family: "Noto Sans KR";
+    .p_swiper .swiper {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .p_swiper .swiper-wrapper {
+        height: 500px;
     }
 
 
-    /* 페이지네이션 */
-    /* .p_swiper .swiper-pagination1 {
-    bottom: -50px !important;
-    z-index: 3;
-} */
+    .swiper-slide img {
+        width: 100%;
+        object-fit: cover;
+    }
 
     .p_swiper .swiper-pagination1 .swiper-pagination-bullet {
         width: 6px;
         height: 6px;
         background: #a7a7a7;
         opacity: 0.6;
-        margin: 120px 6px !important;
+        margin: 15px 6px !important;
         z-index: 3;
-        cursor: none;
+        z-index: 9999;
     }
 
 
+    /* 이미지 슬라이드 옆 텍스트 */
 
+    .sec1_text_wrap {
+        width: 100%;
+        height: auto;
+        font-family: "Noto Sans KR";
+    }
 
     .text_left>h1 {
         font-size: 15px;
@@ -1146,8 +1144,8 @@ footer {
     }
 
     .sec2_text1:nth-of-type(1) {
-    margin-top: -26px;
-}
+        margin-top: -26px;
+    }
 
     .sec2_text_warp {
         width: 100%;
@@ -1168,7 +1166,7 @@ footer {
         letter-spacing: 1px;
     }
 
-    .content3{
+    .content3 {
         display: none;
     }
 
