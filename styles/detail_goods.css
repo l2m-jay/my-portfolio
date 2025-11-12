@@ -1042,7 +1042,7 @@ footer {
     }
 
     .p_swiper .swiper-pagination1 .swiper-pagination-bullet-active {
-    background: #3b3b3b;
+    background: #303030;
 }
 
 
@@ -1218,6 +1218,7 @@ footer {
 
     .section09 .swiper {
         height: auto;
+        margin: 0 !important;
 
     }
 
