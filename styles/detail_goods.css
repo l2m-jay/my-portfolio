@@ -1052,6 +1052,7 @@ footer {
         width: 100%;
         height: auto;
         font-family: "Noto Sans KR";
+        margin-top: 7px;
     }
 
     .text_left>h1 {
@@ -1060,7 +1061,7 @@ footer {
 
     .sec1_text_wrap>h4 {
         font-size: 14px;
-        margin-top: -4px;
+        margin-top: -5px;
     }
 
     .sec1_text_wrap>h3 {
@@ -1219,6 +1220,7 @@ footer {
     .section09 .swiper {
         height: auto;
         margin: 0 !important;
+        /* 오른쪽 여백 20px없애기 */
 
     }
 
