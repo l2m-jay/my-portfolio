@@ -1043,7 +1043,7 @@ footer {
         height: 6px;
         background: #a7a7a7;
         opacity: 0.6;
-        margin: 100px 6px !important;
+        margin: 120px 6px !important;
         z-index: 3;
         cursor: none;
     }
@@ -1146,7 +1146,7 @@ footer {
     }
 
     .sec2_text1:nth-of-type(1) {
-    margin-top: -30px;
+    margin-top: -26px;
 }
 
     .sec2_text_warp {
@@ -1156,7 +1156,7 @@ footer {
 
 
     .content1 {
-        margin-top: 40px;
+        margin-top: 47px;
         font-size: 20px;
         font-weight: bold;
     }
